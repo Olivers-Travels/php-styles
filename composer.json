@@ -1,16 +1,17 @@
 {
     "name": "olivers-travels/php-styles",
     "description": "Package containing php style configurations to share between our projects",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "OliversTravels\\PhpStyles\\": "src/"
         },
         "files": [
-            "./src/php-cs-fixer/helpers.php"
+            "src/helpers.php"
         ]
     },
     "require": {
-        "friendsofphp/php-cs-fixer": "^3.14"
+        "friendsofphp/php-cs-fixer": "^3.14",
+        "laravel/pint": "^1.6"
     }
 }
