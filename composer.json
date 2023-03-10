@@ -1,0 +1,15 @@
+{
+    "name": "olivers-travels/php-styles",
+    "description": "Package containing php style configurations to share between our projects",
+    "autoload": {
+        "psr-4": {
+            "OliversTravels\\PhpStyles\\": "src/"
+        },
+        "files": [
+            "./src/php-cs-fixer/helpers.php"
+        ]
+    },
+    "require": {
+        "friendsofphp/php-cs-fixer": "^3.14"
+    }
+}
