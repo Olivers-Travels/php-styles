@@ -1,7 +1,7 @@
 {
     "name": "olivers-travels/php-styles",
     "description": "Package containing php style configurations to share between our projects",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "OliversTravels\\PhpStyles\\": "src/"
