@@ -13,4 +13,5 @@ return [
             'trait_import' => 'none',
         ],
     ],
+    'trailing_comma_in_multiline' => true,
 ];
