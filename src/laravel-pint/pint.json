@@ -21,6 +21,13 @@
       "operators": {
         "=>": "align_single_space_minimal",
         "=": "align_single_space_minimal"
+      },
+      "operator_linebreak": {
+        "only_booleans": false,
+        "position": "beginning"
+      },
+      "ordered_imports": {
+        "sort_algorithm": "alpha"
       }
     }
   }

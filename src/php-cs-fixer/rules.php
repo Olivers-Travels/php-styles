@@ -14,4 +14,21 @@ return [
         ],
     ],
     'trailing_comma_in_multiline' => true,
+    "phpdoc_align" => [
+    "align" => "vertical"
+    ],
+    "binary_operator_spaces" => [
+    "default" => "single_space",
+        "operators" => [
+            "=>" => "align_single_space_minimal",
+            "=" => "align_single_space_minimal"
+        ]
+    ],
+    "operator_linebreak" => [
+        "only_booleans" => false,
+        "position" => "beginning"
+    ],
+    "ordered_imports" => [
+        "sort_algorithm" => "alpha"
+    ]
 ];
