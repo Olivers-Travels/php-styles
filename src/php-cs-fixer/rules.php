@@ -14,17 +14,20 @@ return [
         ],
     ],
     'trailing_comma_in_multiline' => true,
-    "phpdoc_align" => [
-        "align" => "vertical"
+    'phpdoc_align' => [
+        'align' => 'vertical'
     ],
-    "binary_operator_spaces" => [
-        "default" => "align_single_space_minimal"
+    'binary_operator_spaces' => [
+        'operators' => [
+            '=' => 'align_single_space_minimal',
+            '=>' => 'align_single_space_minimal'
+        ]
     ],
-    "operator_linebreak" => [
-        "only_booleans" => false,
-        "position" => "beginning"
+    'operator_linebreak' => [
+        'only_booleans' => false,
+        'position' => 'beginning'
     ],
-    "ordered_imports" => [
-        "sort_algorithm" => "alpha"
+    'ordered_imports' => [
+        'sort_algorithm' => 'alpha'
     ]
 ];
