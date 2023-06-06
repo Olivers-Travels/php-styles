@@ -1,5 +1,8 @@
 {
   "preset": "psr12",
+  "exclude": [
+    "bower_components"
+  ],
   "rules": {
     "concat_space": {
       "spacing": "one"
