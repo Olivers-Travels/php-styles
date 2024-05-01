@@ -2,6 +2,18 @@
 
 return [
     '@PSR12' => true,
+    'array_syntax' => [
+        'syntax' => 'short'
+    ],
+    'binary_operator_spaces' => [
+        'operators' => [
+            '=' => 'align_single_space_minimal',
+            '=>' => 'align_single_space_minimal'
+        ]
+    ],
+    'cast_spaces' => [
+        'space' => 'single'
+    ],
     'concat_space' => [
         'spacing' => 'one',
     ],
@@ -13,21 +25,62 @@ return [
             'trait_import' => 'none',
         ],
     ],
-    'trailing_comma_in_multiline' => true,
-    'phpdoc_align' => [
-        'align' => 'vertical'
+    'function_declaration' => [
+        'closure_function_spacing' => 'none'
     ],
-    'binary_operator_spaces' => [
-        'operators' => [
-            '=' => 'align_single_space_minimal',
-            '=>' => 'align_single_space_minimal'
+    'indentation_type' => true,
+    'method_chaining_indentation' => true,
+    'multiline_whitespace_before_semicolons' => [
+        'strategy' => 'no_multi_line'
+    ],
+    'no_empty_statement' => true,
+    'no_extra_blank_lines' => [
+        'tokens' => [
+            'extra',
         ]
     ],
+    'no_leading_import_slash' => true,
+    'no_singleline_whitespace_before_semicolons' => true,
+    'no_spaces_around_offset' => true,
+    'no_trailing_comma_in_singleline_array' => true,
+    'no_trailing_whitespace' => true,
+    'no_unused_imports' => true,
+    'no_whitespace_before_comma_in_array' => true,
+    'no_whitespace_in_blank_line' => true,
+    'nullable_type_declaration' => true,
     'operator_linebreak' => [
         'only_booleans' => false,
         'position' => 'beginning'
     ],
     'ordered_imports' => [
         'sort_algorithm' => 'alpha'
-    ]
+    ],
+    'object_operator_without_whitespace' => true,
+    'phpdoc_align' => [
+        'align' => 'vertical'
+    ],
+    'php_unit_method_casing' => [
+        'case' => 'camel_case'
+    ],
+    'return_type_declaration' => true,
+    'single_class_element_per_statement' => true,
+    'single_import_per_statement' => true,
+    'single_line_after_imports' => true,
+    'single_line_comment_spacing' => true,
+    'single_quote' => true,
+    'spaces_inside_parentheses' => true,
+    'standardize_not_equals' => true,
+    'statement_indentation' => true,
+    'swich_case_semicolon_to_colon' => true,
+    'switch_case_space' => true,
+    'ternary_operator_spaces' => true,
+    'trailing_comma_in_multiline' => true,
+    'type_declaration_spaces' => true,
+    'unary_operator_spaces' => true,
+    'white_space_after_comma_in_array' => true,
+    'yoda_style' => [
+        'equal' => false,
+        'identical' => false,
+        'less_and_greater' => false,
+    ],
 ];
