@@ -75,7 +75,6 @@ return [
     'switch_case_space' => true,
     'ternary_operator_spaces' => true,
     'trailing_comma_in_multiline' => true,
-    'type_declaration_spaces' => true,
     'unary_operator_spaces' => true,
     'white_space_after_comma_in_array' => true,
     'yoda_style' => [
